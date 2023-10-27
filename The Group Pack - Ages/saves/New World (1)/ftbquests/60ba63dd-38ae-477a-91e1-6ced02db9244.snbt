@@ -1,0 +1,27 @@
+{
+	version: 1
+	uuid: "60ba63dd38ae477a91e16ced02db9244"
+	name: "MetalBox47"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0C70BB3196C79750: 1
+	}
+	started: {
+		0C70BB3196C79750: 1696878675068L
+		3F448D8F74A3B135: 1696878675068L
+		0000000000000001: 1696878675068L
+		37D5013BDFE23168: 1696878675068L
+	}
+	completed: {
+		0C70BB3196C79750: 1696878675069L
+		3F448D8F74A3B135: 1696878675069L
+		37D5013BDFE23168: 1696878675069L
+	}
+	claimed_rewards: { }
+	player_data: {
+		60ba63dd38ae477a91e16ced02db9244: {
+			can_edit: 1b
+		}
+	}
+}

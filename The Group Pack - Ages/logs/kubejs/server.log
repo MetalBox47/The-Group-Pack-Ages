@@ -1,0 +1,8 @@
+[21:51:09] [INIT] KubeJS 1902.6.2-build.3; MC 1902 forge
+[21:51:09] [INIT] Loaded plugins:
+[21:51:09] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[21:51:09] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[21:51:09] [INFO] server_scripts:example.js:5: Hello, World! (Loaded server scripts)
+[21:51:09] [INFO] Loaded script server_scripts:example.js in 0.001 s
+[21:51:09] [INFO] Loaded 1/1 KubeJS server scripts in 0.008 s
+[21:51:09] [INFO] Scripts loaded

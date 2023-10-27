@@ -1,0 +1,14 @@
+#5C1 terralith:alpine_highlands
+#5E9 terralith:blooming_plateau
+#735 biomesoplenty:coniferous_forest
+#4CA minecraft:dripstone_caves
+#0E5 terralith:highlands
+#056 biomesoplenty:maple_woods
+#588 terralith:moonlight_valley
+#698 biomesoplenty:redwood_forest
+#5FF minecraft:river
+#108 biomesoplenty:seasonal_forest
+#2CF biomesoplenty:shrubland
+#14C biomesoplenty:spider_nest
+#720 terralith:steppe
+#495 minecraft:the_void

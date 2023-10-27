@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "working_with_iron"
+	group: "2D2A7AD0402FA68E"
+	id: "56E88159D65AB425"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "10C9EB751B6E431E"
+			rewards: [{
+				id: "1324037AFDFC0691"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDEBC3552C65522"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "690F98B49022B0E4"
+			rewards: [{
+				id: "506ECEB103C2791C"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71AECD2A2B332AA8"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "4A33978415F2712C"
+			rewards: [{
+				id: "62895A21F1AC79BC"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65E4A50D24C03757"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "7A06C2F816ACEE50"
+			rewards: [{
+				count: 4
+				id: "56B35848C667C700"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A6983A7AB4591DC"
+					item: "colossalchests:chest_wall_iron"
+					type: "item"
+				}
+				{
+					id: "2703DC3326776824"
+					item: "colossalchests:colossal_chest_iron"
+					type: "item"
+				}
+				{
+					id: "4E3A24A0D0417FEB"
+					item: "colossalchests:interface_iron"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "0C570A421A1CADEA"
+			rewards: [{
+				id: "4974142EF28A97DD"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_mattock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26B8FF2F2B11FFD5"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16C9BA95748FF53B"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27BD135165DA3277"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C35AA34301CB9F"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C10D0CDE59E9B7C"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "164A5DC753C2499A"
+			rewards: [
+				{
+					id: "299B427F21D9FD65"
+					item: "minecraft:iron_horse_armor"
+					type: "item"
+				}
+				{
+					id: "1BA4B843B86C6212"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B502312D02ED047"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C9DF33D5EE4E9D1"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "257B02565A1DF762"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D27CCBD2738C138"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "7301E81FE335A486"
+			rewards: [{
+				count: 4
+				id: "7E8393872A929C32"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "032C7E1D23D77224"
+					item: "storagedrawers:compacting_drawers_3"
+					type: "item"
+				}
+				{
+					id: "3E633EA7B31E751E"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "5C5EB9101B570D71"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "5507CD620F11C570"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	title: "Working with Iron"
+}

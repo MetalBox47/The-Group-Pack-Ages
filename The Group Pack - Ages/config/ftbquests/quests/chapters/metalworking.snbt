@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metalworking"
+	group: "14A75335883127BD"
+	id: "460F081ECF84D290"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "71DED36B217BEBCE"
+			rewards: [{
+				id: "34297C6DA2528052"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CBB7743C44046F1"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71DED36B217BEBCE"]
+			id: "1EE0225E7EF5A6C7"
+			rewards: [{
+				count: 4
+				id: "2E3C7300AF127332"
+				item: "colossalchests:chest_wall_copper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "72CCE3D040F19DB7"
+					item: "colossalchests:chest_wall_copper"
+					type: "item"
+				}
+				{
+					id: "32C4BFEB791D694B"
+					item: "colossalchests:colossal_chest_copper"
+					type: "item"
+				}
+				{
+					id: "23F9D0893B503531"
+					item: "colossalchests:interface_copper"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "2B85C14AB0710310"
+			rewards: [{
+				count: 3
+				id: "2A44F57405AB3B6D"
+				item: "astikorcarts:wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D048DAC14372346"
+				item: "astikorcarts:wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B85C14AB0710310"]
+			id: "7E95DFAD4E16A99D"
+			rewards: [
+				{
+					id: "04F354897C5E16BA"
+					item: "pamhc2trees:apple_sapling"
+					type: "item"
+				}
+				{
+					id: "38C97B2312CAC12D"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0568DDF313F3D099"
+				item: "astikorcarts:animal_cart"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E95DFAD4E16A99D"]
+			id: "71C9457F6B2C6176"
+			rewards: [{
+				count: 4
+				id: "0252620E1F1F9B85"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33704D36B37F8CA7"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"08FCC1BF5E0B9525"
+				"53A576EDB19AEA34"
+			]
+			id: "646116C90BF09E13"
+			tasks: [{
+				id: "0FC439A5070884B7"
+				item: "smallships:oak_cog"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["646116C90BF09E13"]
+			id: "4ED264993D91E9CD"
+			tasks: [{
+				id: "4DBD5B36DA472B60"
+				item: "smallships:oak_brigg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ED264993D91E9CD"]
+			id: "1CE664D91761B032"
+			tasks: [{
+				id: "3F7EB423FC2CE064"
+				item: "smallships:oak_galley"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "7A25B72C9AA3DAF9"
+			rewards: [
+				{
+					id: "4F76C5F950BA3B79"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0509FFB7ED71CB50"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "273568DE0403AE41"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "662F3C8E9858F876"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A87535160F1DE0D"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350C07FDC04B565C"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "682BD9456DFE9BD5"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "64625B90F01D4CC8"
+			rewards: [
+				{
+					count: 8
+					id: "3EF654245D2CDC9D"
+					item: "supplementaries:copper_lantern"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68DFA1350FCAB701"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "573700C1DA036AB2"
+					item: "ironchest:wood_to_copper_chest_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5073CCD50C866F70"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD2118E2A89E0F6"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53AC3BD485F2FF6E"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34F326ABCF3A808C"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CA30CF2F4F78CA9"
+					item: {
+						Count: 1b
+						id: "exlinecopperequipment:copper_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "10BF1BE25DF1D1D8"
+			rewards: [{
+				count: 2
+				id: "341C781F77302BD5"
+				item: "minecraft:raw_copper_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C8A18A235F1F9F9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+					title: "Any #forge:nuggets/copper"
+					type: "item"
+				}
+				{
+					id: "50E33D40BF329D86"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Working with Copper"
+}

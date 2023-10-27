@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "6BB673B4EFC621D0"
+	id: "13CF07F4CC15A912"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["740BA01CA6FA0E89"]
+			id: "04206C29AF2D0485"
+			tasks: [{
+				id: "18627E2BEAD5ED26"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04206C29AF2D0485"]
+			id: "7E0A9491486F75B6"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "3A220C80FEF99528"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "1BB555F678677A0A"
+			tasks: [{
+				id: "011322C284293FCF"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "71C48E7BC392C2D9"
+			tasks: [{
+				id: "1B801F9CDC92AFE6"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "6E2EE351D0D98A27"
+			tasks: [{
+				id: "0E0F1F4AF38BBC0A"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "72B27D98CD817694"
+			tasks: [{
+				id: "14DB934A9BE7EB9B"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "610B936615C02958"
+			tasks: [{
+				id: "1869B12FB2A6C0C1"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "388DFD309EABDCB6"
+			tasks: [{
+				id: "109D0EA5EED5822B"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "479609C9FCAE9AA7"
+			tasks: [{
+				id: "6D981B7481F68793"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"532422F88558DC4E"
+				"388DFD309EABDCB6"
+			]
+			id: "1255768251FCD9E6"
+			tasks: [{
+				id: "16563F8D961FE718"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["479609C9FCAE9AA7"]
+			id: "3E22F5BDB7758130"
+			tasks: [{
+				id: "54B42B18C1207382"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["610B936615C02958"]
+			id: "0ADB98909503877E"
+			tasks: [{
+				id: "0919D09C5B64F15E"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71C48E7BC392C2D9"]
+			id: "2A3202B928F6C81B"
+			tasks: [{
+				id: "7834E758514701AA"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E2EE351D0D98A27"]
+			id: "342E75CFD0F95C1F"
+			tasks: [{
+				id: "6A8137B662FB4782"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72B27D98CD817694"]
+			id: "24D0E7452D648F0D"
+			tasks: [{
+				id: "1C115658E7A115AD"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "3AB25A7B0A5E1F3F"
+			tasks: [{
+				id: "24884E74BE5B888D"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E0A9491486F75B6"]
+			id: "55005E1F066341AA"
+			tasks: [{
+				id: "79A10CA69E2F3A40"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AB25A7B0A5E1F3F"]
+			id: "22AD4F276DE0E5EB"
+			tasks: [{
+				id: "0515EF3B2DEEFD17"
+				item: "pamhc2crops:flaxitem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55005E1F066341AA"]
+			id: "6F7EB72EA65AC22F"
+			tasks: [{
+				id: "7FFA4746E79316AB"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6F7EB72EA65AC22F"
+				"22AD4F276DE0E5EB"
+			]
+			dependency_requirement: "one_completed"
+			id: "26734C5775F01F52"
+			tasks: [{
+				id: "4B2F80E96067C953"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+	]
+	title: "Farming"
+}

@@ -1,0 +1,14 @@
+#3FF ars_nouveau:archwood_forest
+#46B byg:autumnal_forest
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#735 biomesoplenty:coniferous_forest
+#6D4 biomesoplenty:field
+#79C byg:maple_taiga
+#056 biomesoplenty:maple_woods
+#1AB biomesoplenty:ominous_woods
+#28B biomesoplenty:pumpkin_patch
+#5FF minecraft:river
+#108 biomesoplenty:seasonal_forest
+#169 minecraft:taiga
+#495 minecraft:the_void

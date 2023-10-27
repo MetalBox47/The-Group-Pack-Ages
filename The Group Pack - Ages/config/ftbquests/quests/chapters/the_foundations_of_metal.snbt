@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_foundations_of_metal"
+	group: "14A75335883127BD"
+	id: "23530FC4AA77F402"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1DDA86051C141A58"
+				"53A576EDB19AEA34"
+			]
+			id: "40288C2E9955C3D0"
+			tasks: [{
+				id: "11150D61A01E7316"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40288C2E9955C3D0"]
+			id: "21B127805FE466A5"
+			tasks: [{
+				id: "1E66A3186EE82754"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21B127805FE466A5"]
+			id: "6E3A5FE7E0289E5C"
+			tasks: [{
+				id: "1BD1C326D343BA00"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40288C2E9955C3D0"]
+			id: "10E56309FF62B28D"
+			rewards: [{
+				id: "780D9D46A622BDFF"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03E72CA8B5E6672D"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10E56309FF62B28D"]
+			id: "1D054A6D2B22C67A"
+			rewards: [{
+				id: "3DDEEAAC36394F83"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B0A5239195144EE"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40288C2E9955C3D0"]
+			id: "26B24BFD4387FF48"
+			rewards: [{
+				id: "7A745EE95ED79AA8"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43F2080E62502056"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "61DF7A994DF87EAA"
+			rewards: [{
+				id: "13C9BC3E83DEC396"
+				item: "minecraft:raw_iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62E2D90BC37792A8"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"61DF7A994DF87EAA"
+				"4FD213E362999262"
+				"2ED2A02995BCD4AD"
+			]
+			id: "1DD3C0466BA2C7A3"
+			rewards: [{
+				command: "/gamestage add @p ironage"
+				icon: "minecraft:iron_ingot"
+				id: "1852E2DE33E09DB3"
+				title: "Iron Age Unlocked!"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "793FC7EE9C2281DE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"21B127805FE466A5"
+				"1E81399D786F9894"
+				"5B54259AD79C140E"
+				"42EB4B040E5603B7"
+				"06D180CA6912D0C5"
+			]
+			id: "2ED2A02995BCD4AD"
+			rewards: [
+				{
+					count: 2
+					id: "740971E840A9279E"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "766D110EB8D918C4"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "25ACCE46C92AB427"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "3508CC520CBA0B7D"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10E56309FF62B28D"]
+			id: "4FD213E362999262"
+			rewards: [
+				{
+					count: 4
+					id: "3DF3A2B3B77B9175"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EEDF7877E9E7E7F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2791320C697B3BEC"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26B24BFD4387FF48"]
+			id: "1E81399D786F9894"
+			tasks: [{
+				id: "1168BE8ECCF14E67"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42EB4B040E5603B7"]
+			id: "22A14AEEBB338F48"
+			rewards: [{
+				count: 4
+				id: "7E2F2625C43A6094"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18DF57FCF9B6DE47"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "5B54259AD79C140E"
+			rewards: [{
+				count: 4
+				id: "0C92CF74B70C97F1"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "31FF55830524490B"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53A576EDB19AEA34"]
+			id: "42EB4B040E5603B7"
+			rewards: [{
+				count: 8
+				id: "4C505A1FEDD5AFFC"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0105642B51A45DA4"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26B24BFD4387FF48"]
+			id: "06D180CA6912D0C5"
+			tasks: [{
+				id: "591C5EF891CD408A"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FD213E362999262"
+				"7A25B72C9AA3DAF9"
+			]
+			hide_dependency_lines: true
+			id: "75C93571A297948A"
+			subtitle: "Seeing is believing!"
+			tasks: [
+				{
+					id: "69B3623CD315706B"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "5320E54AAF6E4DD2"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "516B40587F9A1401"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2940A1B0045A26D8"
+					item: {
+						Count: 1b
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40288C2E9955C3D0"]
+			id: "0F7FE993BB82DD1E"
+			rewards: [{
+				id: "1CE923B37ADF1BD1"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B0DACBE60D7D541"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40288C2E9955C3D0"]
+			id: "16489808EA39D854"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A86B1E088061C7E"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EB800FFC03BB320"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Crankin Your Cog"
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "Create Foundations"
+}

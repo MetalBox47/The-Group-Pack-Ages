@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#420 biomesoplenty:clover_patch
+#6D4 biomesoplenty:field
+#251 biomesoplenty:forested_field
+#0AF biomesoplenty:glowing_grotto
+#67B biomesoplenty:grassland
+#5FF minecraft:river
+#14F byg:temperate_rainforest

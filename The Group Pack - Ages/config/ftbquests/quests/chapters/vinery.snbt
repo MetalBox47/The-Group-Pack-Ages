@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vinery"
+	group: "14A75335883127BD"
+	id: "534644F449D72BAE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["660D30C8EF2FDDE2"]
+			id: "389AD2149B42ABD6"
+			tasks: [{
+				id: "7769F726F4685EF7"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2EEFE3026DAFD6C8"
+				"271ED9E47FAEE625"
+				"1D5F87A06B44BD1E"
+			]
+			id: "7807DBE56F3672E0"
+			rewards: [{
+				id: "38C45822DC54731C"
+				item: "vinery:flower_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D1B11C265EA0AB"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D5F87A06B44BD1E"
+				"7760C488143B3B3D"
+				"1DD3C0466BA2C7A3"
+			]
+			id: "301AD8C91C7820BF"
+			tasks: [{
+				id: "0E003339BC73D327"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "7760C488143B3B3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BA59A3B8ED09767"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16D4031A155EB573"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "2EEFE3026DAFD6C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F226F2B15B2A6CE"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4ABCAFB032562429"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:red_grape"
+					}
+				}
+				title: "Any #vinery:red_grape"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "271ED9E47FAEE625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08FDFBDD164FE865"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DBA8D7F0F3A6D29"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:white_grape"
+					}
+				}
+				title: "Any #vinery:white_grape"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"389AD2149B42ABD6"
+				"7807DBE56F3672E0"
+			]
+			id: "06927756DBD2C6D2"
+			tasks: [{
+				id: "38B8560E3E3928C2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:grapejuice_white"
+					}
+				}
+				title: "Any #minecraft:grapejuice_white"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7807DBE56F3672E0"
+				"389AD2149B42ABD6"
+			]
+			id: "3C331486F3056F40"
+			tasks: [{
+				id: "571A09114B2E95F6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:grapejuice_red"
+					}
+				}
+				title: "Any #minecraft:grapejuice_red"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["301AD8C91C7820BF"]
+			id: "0257F39489069680"
+			tasks: [{
+				id: "43D331E29E45EF5D"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "09CD7D4756F3CE06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48DCF3A3D56E95E1"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F23BC38A045DA6A"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0257F39489069680"
+				"3C331486F3056F40"
+				"06927756DBD2C6D2"
+			]
+			dependency_requirement: "one_completed"
+			id: "76202511B96880B7"
+			rewards: [{
+				id: "436A8871C7012E79"
+				item: "vinery:wine_rack_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3563AC0F74A2D339"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: "Vinery"
+}

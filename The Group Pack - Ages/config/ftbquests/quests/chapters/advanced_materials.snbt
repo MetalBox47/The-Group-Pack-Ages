@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_materials"
+	group: "2D2A7AD0402FA68E"
+	id: "5636C3FCB00FE8FB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "6C2ED89A224BEDAF"
+			rewards: [{
+				count: 8
+				id: "17B8CF5B7BBFE9B1"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "706B66F897E1AF21"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "668E5BB64FBD16C6"
+			rewards: [{
+				count: 16
+				id: "76433E9841F4D011"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6E45173D3DFF6A28"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C2ED89A224BEDAF"]
+			id: "01F5C7E28CD42799"
+			rewards: [{
+				id: "19D7A699BB5878FE"
+				item: "ironchest:obsidian_chest"
+				type: "item"
+			}]
+			tasks: [{
+				count: 18L
+				id: "614D7D158EABBC67"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01F5C7E28CD42799"]
+			id: "1DE4C4C63D3993B9"
+			rewards: [{
+				id: "2CC943ECF25DC415"
+				item: "croptopia:nether_wart_stew"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "647D55475185027F"
+					type: "dimension"
+				}
+				{
+					id: "55CA466314DD82ED"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DE4C4C63D3993B9"]
+			id: "06F39A84AD00B406"
+			rewards: [{
+				count: 16
+				id: "4AC05A73D3F49DB3"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5891CAA733553037"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DE4C4C63D3993B9"]
+			id: "4A69E794709A5400"
+			rewards: [{
+				count: 3
+				id: "4742631D9B82ED64"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4607C06FD8071FE0"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DE4C4C63D3993B9"]
+			id: "3DC333D89BAB9BBC"
+			rewards: [{
+				count: 64
+				id: "3366F0A202305331"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0BFCDEDDADCD89FF"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DE4C4C63D3993B9"]
+			id: "7CDADE5E114C4AD0"
+			rewards: [{
+				id: "00B7B734F5855BD1"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "783938B1B65BC3D4"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"27DAE9EC4E9092E8"
+				"7CDADE5E114C4AD0"
+			]
+			id: "5FFE169F9378F9ED"
+			rewards: [{
+				id: "2D59C361AC54B112"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38612A00B3B6B436"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DE4C4C63D3993B9"]
+			id: "27DAE9EC4E9092E8"
+			rewards: [{
+				id: "676F1BC674B7A230"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "123F079A16E2B87A"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "31B47AE96413238D"
+			rewards: [{
+				id: "5FFDC140497B8CE7"
+				item: "create:brass_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BC91EA39D2AC704"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "0927D02D3C19F30A"
+			rewards: [{
+				count: 8
+				id: "028E43128367C244"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A48D499914056DC"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "06E6D827761346FE"
+			rewards: [{
+				count: 8
+				id: "547D5AB54541EA61"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "410B2869254E082F"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "012AACF3FB27FB5B"
+			rewards: [{
+				count: 8
+				id: "0C3278B7F0D1EB45"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FD1BF3F9EEBBD4D"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "3DA89022792AEA01"
+			rewards: [{
+				count: 8
+				id: "3E125E6F3220E1D7"
+				item: "createindustry:cast_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF8FA545382273A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/cast_iron"
+					}
+				}
+				title: "Any #forge:ingots/cast_iron"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "63C4980DA2BD62EB"
+			rewards: [{
+				count: 8
+				id: "7998524D0E62E99F"
+				item: "createindustry:coal_coke"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01BE6DD46758D7C7"
+				item: "createindustry:coal_coke"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4A69E794709A5400"]
+			id: "22DCF5F60648344E"
+			rewards: [{
+				id: "600749FCFF6EB86D"
+				item: {
+					Count: 1b
+					id: "notreepunching:netherite_mattock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48CB2F1DE0BAC72C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FFE169F9378F9ED"]
+			id: "14D2CC716D881CF6"
+			rewards: [{
+				count: 8
+				id: "2D2F8DA1659BF3CD"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D48481BCF6492A"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+	]
+	title: "Advanced Materials"
+}

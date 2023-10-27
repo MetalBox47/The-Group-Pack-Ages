@@ -1,0 +1,16 @@
+#6EA byg:amaranth_fields
+#3FF ars_nouveau:archwood_forest
+#556 minecraft:beach
+#184 terralith:brushland
+#79D terralith:cave/andesite_caves
+#074 byg:ebony_woods
+#79A minecraft:lukewarm_ocean
+#3DC minecraft:plains
+#4AA byg:rainbow_beach
+#5FF minecraft:river
+#039 terralith:savanna_badlands
+#3AF minecraft:sparse_jungle
+#495 minecraft:the_void
+#2B7 minecraft:warm_ocean
+#19B terralith:white_mesa
+#579 minecraft:windswept_savanna

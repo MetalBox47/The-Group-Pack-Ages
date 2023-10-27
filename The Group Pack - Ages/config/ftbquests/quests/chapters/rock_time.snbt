@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rock_time"
+	group: "6BB673B4EFC621D0"
+	id: "0F862A31CCA98CC3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67E1085140671014"]
+			id: "532422F88558DC4E"
+			rewards: [{
+				id: "1104B0C71EF65652"
+				item: "quark:blackstone_furnace"
+				type: "item"
+			}]
+			subtitle: "\"Its time to cook\""
+			tasks: [{
+				id: "04111647D7DECF99"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03C9775216D932C8"]
+			id: "7E9DDE92D5D648F2"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "04E83674147EB0E6"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7E9DDE92D5D648F2"
+				"0380214E6464673C"
+				"2F8CDF51797558E5"
+			]
+			id: "05F03087E61B1267"
+			rewards: [{
+				command: "/puffish_skills points add @p mining"
+				icon: "minecraft:nether_star"
+				id: "504AD064B54322EA"
+				title: "Mining Skill Point"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "2A200854218B35A8"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			description: ["Zinc is a major component in all create components, so it might be a good idea to get lots of this stuff."]
+			id: "54CFFB88ACECE3A2"
+			rewards: [{
+				count: 8
+				id: "3043182198F80B85"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "A chain is only as strong as its weakest Zinc"
+			tasks: [{
+				count: 8L
+				id: "4BB25418D2D50B5D"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			id: "2F8CDF51797558E5"
+			rewards: [{
+				count: 8
+				id: "35962BEDE9EDCBE6"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			subtitle: "All tin, no man"
+			tasks: [{
+				count: 8L
+				id: "7DEE7CA1CB8F8DAD"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			id: "0380214E6464673C"
+			rewards: [{
+				count: 8
+				id: "064578E91735618B"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0C95C68F21D50174"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			id: "0D20BD42E530627F"
+			rewards: [{
+				count: 8
+				id: "1C01813FF46F77D1"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0D26C1CAA285C0F6"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			id: "76520696AAC0ED76"
+			rewards: [{
+				count: 32
+				id: "74E2C2C7C1ED7E04"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			subtitle: "\"Deep underground, a young dwarf dreaming. . .\""
+			tasks: [{
+				count: 32L
+				id: "341BEA0E1306B44D"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76520696AAC0ED76"]
+			id: "512A85B1205A3221"
+			rewards: [{
+				count: 16
+				id: "3DA626871E9E8D25"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Extra Hot!"
+			tasks: [{
+				id: "4743A0C3F8D0C2E0"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["512A85B1205A3221"]
+			id: "53A576EDB19AEA34"
+			rewards: [{
+				command: "/gamestage add @p copperage"
+				icon: "minecraft:copper_ingot"
+				id: "3AC64F70738D6A12"
+				title: "Copper Age Unlocked!"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 8L
+				id: "03E659BC3A6460A4"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["512A85B1205A3221"]
+			id: "182F08CA5C7F50CD"
+			rewards: [{
+				count: 8
+				id: "02D940F470A3A0CC"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "337366955B2F3315"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["512A85B1205A3221"]
+			id: "7B21CF471DD6472E"
+			rewards: [{
+				count: 8
+				id: "296149A79A195B0E"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55078CE82D5589F3"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"54CFFB88ACECE3A2"
+				"46F627D55A32992C"
+			]
+			id: "1DDA86051C141A58"
+			rewards: [{
+				count: 32
+				id: "7CE3A4D843267B36"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Create's version of the atom"
+			tasks: [{
+				count: 8L
+				id: "46C8EF8F7A5C7619"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["532422F88558DC4E"]
+			id: "660D30C8EF2FDDE2"
+			tasks: [{
+				count: 8L
+				id: "1B31B7D76A3D368F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Hot Topic"
+}

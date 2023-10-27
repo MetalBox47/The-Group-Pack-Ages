@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mass_transportation"
+	group: "6E437202226CDAF1"
+	id: "19DD6A4D84961A25"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["603BB7859AC926FA"]
+			id: "002EFA671CBAE42A"
+			rewards: [{
+				count: 32
+				id: "03757F76FCBB8098"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7B6D189B32582C6C"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31B47AE96413238D"]
+			id: "603BB7859AC926FA"
+			tasks: [{
+				id: "1307B36EF5AC20E9"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["002EFA671CBAE42A"]
+			id: "3EA39381340BF511"
+			rewards: [{
+				count: 32
+				id: "34F2F82985381350"
+				item: "railways:track_oak_wide"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "70CCDC824467FA69"
+				item: "railways:track_oak_wide"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["002EFA671CBAE42A"]
+			id: "23481CB6D34B0ED5"
+			rewards: [{
+				count: 32
+				id: "7AE05515245FF8D3"
+				item: "railways:track_oak_narrow"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4EC7F0BF2DD099E6"
+				item: "railways:track_oak_narrow"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["002EFA671CBAE42A"]
+			id: "15DCE7DCC743BF05"
+			tasks: [{
+				id: "53A409B095559176"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15DCE7DCC743BF05"]
+			id: "59F2C0AAF9BD88E0"
+			rewards: [{
+				count: 32
+				id: "7D46826F852C4A23"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			tasks: [{
+				id: "008367A3E5D4B3DD"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"15DCE7DCC743BF05"
+				"631255BBFBEDA782"
+			]
+			id: "14C705B71F35694C"
+			rewards: [{
+				count: 32
+				id: "3D5125803CF88C16"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50B09E4000DF7E76"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["603BB7859AC926FA"]
+			id: "631255BBFBEDA782"
+			rewards: [{
+				id: "7D1B56121688C7DB"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5210FD6746C5F503"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14C705B71F35694C"
+				"59F2C0AAF9BD88E0"
+			]
+			id: "379F9D39CCBFC8F9"
+			rewards: [{
+				id: "4494056330FD5E95"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "5D1D3553E3046BEE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "Mass Transportation"
+}

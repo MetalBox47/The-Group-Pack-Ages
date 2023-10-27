@@ -1,0 +1,63 @@
+
+#HUD settings
+[HUD]
+	#Use Graphical Meters
+	useGraphicalMeters = true
+	#Chat message when toggling module
+	toggleModuleSpam = false
+	#Display HUD
+	keybind_HUD_on = true
+	#x position
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keybindHUDx = 8.0
+	#x position
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keybindHUDy = 60.0
+	#Use a 24h clock instead of 12h
+	use24hClock = false
+
+["Meter Settings"]
+	#Show meters when paused
+	# Useful for trying different colors in real time
+	showMetersWhenPaused = false
+
+	["Meter Settings"."Heat Meter Settings"]
+		#value to manually set the meter at.
+		# Useful for trying different colors in real time
+		#Range: 0.0 ~ 100.0
+		heatMeterDebugValue = 0.0
+		#Meter bar glass in RGB or RGBA hex
+		heatMeterGlassColor = "#FFFFFF"
+		#Meter bar color in RGB or RGBA hex
+		heatMeterBarColor = "#FFFFFF"
+
+	["Meter Settings"."Energy Meter Settings"]
+		#value to manually set the meter at.
+		# Useful for trying different colors in real time
+		#Range: 0.0 ~ 100.0
+		heatMeterDebugValue = 0.0
+		#Meter bar glass in RGB or RGBA hex
+		energyMeterGlassColor = "#d9FFFFFF"
+		#Meter bar color in RGB or RGBA hex
+		energyMeterBarColor = "#d943ff64"
+
+	["Meter Settings"."Plasma Meter Settings"]
+		#value to manually set the meter at.
+		# Useful for trying different colors in real time
+		#Range: 0.0 ~ 100.0
+		plasmaMeterDebugValue = 0.0
+		#Meter bar glass in RGB or RGBA hex
+		plasmaMeterGlassColor = "#FFFFFF"
+		#Meter bar color in RGB or RGBA hex
+		plasmaMeterBarColor = "#FFFFFF"
+
+	["Meter Settings"."Water Meter Settings"]
+		#value to manually set the meter at.
+		# Useful for trying different colors in real time
+		#Range: 0.0 ~ 100.0
+		waterMeterDebugValue = 0.0
+		#Meter bar glass in RGB or RGBA hex
+		waterMeterGlassColor = "#FFFFFF"
+		#Meter bar color in RGB or RGBA hex
+		waterMeterBarColor = "#FFFFFF"
+

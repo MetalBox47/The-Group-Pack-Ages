@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "big_reactors"
+	group: "1D01AB2797040F36"
+	id: "0906CA4DC1E097E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"030A7E6E48B206BB"
+				"1FFDA97D9E40793C"
+			]
+			id: "57A1E79D3C62ED8F"
+			rewards: [{
+				count: 8
+				id: "3FDCC018E3D1E9D7"
+				item: "immersiveengineering:raw_block_uranium"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "03CB8CDD3167AED3"
+					item: "createindustry:steel_block"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4EBFE59D7B63C0F5"
+					item: "bigreactors:graphite_block"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09230034CD252285"]
+			id: "1D7B4536932EE043"
+			tasks: [{
+				id: "7E9C413EEB80FBBF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/uranium"
+					}
+				}
+				title: "Any #forge:ingots/uranium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"53CC4682A1F94CF4"
+				"1D7B4536932EE043"
+			]
+			id: "4541D54437A9F434"
+			tasks: [{
+				id: "787CECEACE8C6D7F"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A1E79D3C62ED8F"]
+			id: "53CC4682A1F94CF4"
+			tasks: [{
+				id: "47E4F8A28369441B"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "Big Reactors"
+}

@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_electricity"
+	group: "6E437202226CDAF1"
+	id: "6F19AA7598475244"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A1A525284C34EF3"
+				"2CB5496F9DD24EC6"
+				"38410A40C480931D"
+			]
+			id: "12C1AE64242901DD"
+			tasks: [{
+				id: "79166B4B73A14D13"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EF53A9A182A7C61"
+				"11E33C9B7D43A170"
+			]
+			id: "6134423C4BAC5F2F"
+			tasks: [{
+				id: "1A8EA419DB11C419"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3DA89022792AEA01"]
+			id: "2CB5496F9DD24EC6"
+			tasks: [{
+				id: "3A8C79C1518D0361"
+				item: "createdeco:cast_iron_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31B47AE96413238D"]
+			id: "4A1A525284C34EF3"
+			tasks: [{
+				id: "598CC73BB18C65EF"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21B127805FE466A5"]
+			id: "4BB94BF9368BD80A"
+			tasks: [{
+				id: "5E139D177DFE8CF6"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BB94BF9368BD80A"]
+			id: "38410A40C480931D"
+			tasks: [{
+				id: "1E87EB0BA7993860"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21B127805FE466A5"
+				"12C1AE64242901DD"
+			]
+			id: "6EF53A9A182A7C61"
+			tasks: [{
+				count: 12L
+				id: "4E94E06DFE1F159A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6EF53A9A182A7C61"
+				"11E33C9B7D43A170"
+			]
+			id: "0BF67EF7D4A50391"
+			tasks: [{
+				id: "7492BD3D5EBC649F"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6134423C4BAC5F2F"
+				"0BF67EF7D4A50391"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F3E91CABC44A849"
+			shape: "gear"
+			tasks: [
+				{
+					id: "26D0B555C56AC89E"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "1CF9A0B32FC83CFB"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DD3C0466BA2C7A3"]
+			id: "11E33C9B7D43A170"
+			tasks: [{
+				id: "4CEF283D7B899533"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F3E91CABC44A849"]
+			id: "08ED27A6A085C184"
+			tasks: [{
+				id: "4B7247C026BADE5D"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+	]
+	title: "Create: Electricity!"
+}

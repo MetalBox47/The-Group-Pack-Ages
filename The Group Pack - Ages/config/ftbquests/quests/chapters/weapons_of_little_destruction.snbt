@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_of_little_destruction"
+	group: "2D2A7AD0402FA68E"
+	id: "15BE2D8E99B45B53"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "2A726F34F92AACB4"
+		tasks: [{
+			id: "46C9D5720FB9A404"
+			item: "cgm:workbench"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Weapons of Little Destruction"
+}

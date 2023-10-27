@@ -1,0 +1,15 @@
+{
+	id: "1C73FEA0B42DB5A6"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "quark:shiba_spawn_egg" }
+		{ item: "byg:ebony_chest_boat" }
+		{ item: "minecraft:dirt" }
+		{ item: "createaddition:straw" }
+		{ count: 4, item: "tetra:geode" }
+		{ item: "botania:black_lotus" }
+		{ item: "botania:cosmetic_googly_eyes" }
+	]
+	title: "Wacky Items"
+}

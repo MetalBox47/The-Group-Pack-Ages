@@ -1,0 +1,26 @@
+
+#General Settings
+[General]
+	#Ignore speed boosts for field of view
+	useFOVFix = true
+	#Use FOV Fix to normalize FOV changes
+	useFOVNormalize = true
+	#Default state of FOVfix on login (enabled = true, disabled = false)
+	fovFixDefaultState = true
+	#Use sounds
+	useSounds = true
+
+["Charging Base Energy Meter Settings"]
+	#value to manually set the meter at.
+	# Useful for trying different colors in real time
+	#Range: 0.0 ~ 100.0
+	chargingBaseEnergyMeterDebugValue = 0.0
+	#Meter glass color in ARGB or RGB hex
+	chargingBaseEnergyMeterGlassColor = "d9FFFFFF"
+	#Meter bar color in RGB or RGBA hex
+	chargingBaseEnergyMeterBarColor = "d943ff64"
+
+["Development Settings"]
+	#Enable debugging info
+	enableDebugging = false
+

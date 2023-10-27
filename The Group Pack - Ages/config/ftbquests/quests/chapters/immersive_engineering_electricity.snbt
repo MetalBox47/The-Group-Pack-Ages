@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering_electricity"
+	group: "6E437202226CDAF1"
+	id: "37D5013BDFE23168"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F448D8F74A3B135"
+			tasks: [{
+				id: "0C70BB3196C79750"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F448D8F74A3B135"]
+			id: "13E8521F599CBC0E"
+			tasks: [{
+				id: "61460E1BE8BCDAD9"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13E8521F599CBC0E"]
+			id: "22FB855D4E49A95A"
+			tasks: [
+				{
+					count: 27L
+					id: "1A3EB2E7F91691D3"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "4620A01558FDE102"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13E8521F599CBC0E"]
+			id: "09CB2A0484EB456C"
+			tasks: [
+				{
+					count: 8L
+					id: "1FCC736BE9AEEE1B"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "16219C93DAFFBE1C"
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22FB855D4E49A95A"]
+			id: "1CE2D6B53784A5A6"
+			tasks: [{
+				id: "693D11A344E531DA"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["22FB855D4E49A95A"]
+			id: "50184F2667DA78EB"
+			tasks: [{
+				id: "1603AA807BE82F5B"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50184F2667DA78EB"]
+			id: "747A4D4207E043FC"
+			tasks: [{
+				id: "3A7FC22CE7821CD4"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["747A4D4207E043FC"]
+			id: "2A0055C45A14ADCB"
+			tasks: [{
+				id: "4B153B1EF43668B1"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["747A4D4207E043FC"]
+			id: "02F73E2CA130E41D"
+			tasks: [{
+				id: "01784DCB06795E15"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2A0055C45A14ADCB"
+				"02F73E2CA130E41D"
+			]
+			dependency_requirement: "one_completed"
+			id: "473A9ABDEAD21DC5"
+			tasks: [{
+				id: "51D865A1E3F513BC"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["473A9ABDEAD21DC5"]
+			id: "0994D36AD423EF44"
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					id: "32E71FCE32B19E60"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1305E76F2751029E"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "21A50BCCCADB7704"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -11.0d
+		}
+	]
+	title: "Immersive Engineering: Electricity!"
+}

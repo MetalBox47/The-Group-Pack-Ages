@@ -1,0 +1,10 @@
+#762 biomesoplenty:bamboo_grove
+#02B biomesoplenty:cherry_blossom_grove
+#570 minecraft:crimson_forest
+#4F9 minecraft:dark_forest
+#0AF biomesoplenty:glowing_grotto
+#294 biomesoplenty:jade_cliffs
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#4E0 byg:subzero_hypogeal
+#0F2 byg:wailing_garth

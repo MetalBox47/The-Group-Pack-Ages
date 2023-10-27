@@ -1,0 +1,558 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "6BB673B4EFC621D0"
+	id: "65AB4BEC2499DA46"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FB739DD87F16F29"]
+			icon: "minecraft:flint"
+			id: "278B3293744C3803"
+			rewards: [{
+				count: 8
+				id: "02D942219E03427B"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "Using the gravel you have collected, get some flint!"
+			tasks: [{
+				id: "6560E031691D9970"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Cool Rock: Found!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["278B3293744C3803"]
+			icon: "notreepunching:flint_shard"
+			id: "5D5A1A58DE012DCB"
+			rewards: [{
+				command: "/puffish_skills points add @p combat 1"
+				icon: "minecraft:nether_star"
+				id: "20562DC93075B90F"
+				title: "Skill Point"
+				type: "command"
+			}]
+			subtitle: "With the flint in your hand, right-click on a hard surface to break it into pieces!"
+			tasks: [{
+				id: "475613ABFAF4736A"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "Taking Your Anger Out"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04376B9AF8180E7E"]
+			id: "6D8AC70909BF9292"
+			rewards: [{
+				id: "347C880EC49E4FEE"
+				item: "notreepunching:plant_fiber"
+				type: "item"
+			}]
+			subtitle: "Use your flint knife to break grass.  This will give you plant fibers!"
+			tasks: [{
+				id: "315EE43E3FD71496"
+				item: "notreepunching:plant_fiber"
+				type: "item"
+			}]
+			title: "Lawn Clippings"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D8AC70909BF9292"]
+			id: "072BCE5948F0916E"
+			rewards: [{
+				count: 3
+				id: "25A7FDD4F8817070"
+				item: "notreepunching:plant_string"
+				type: "item"
+			}]
+			subtitle: "Craft plant string using those plant fibers!"
+			tasks: [{
+				id: "7963594FCADCC035"
+				item: "notreepunching:plant_string"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["072BCE5948F0916E"]
+			id: "5907A79C0F3D20F0"
+			rewards: [{
+				id: "748EDB7AF497CA9F"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a flint axe using sticks, plant string, and flint shards!"
+			tasks: [{
+				id: "6946948A64074406"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chop Chop"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:gravel"
+			id: "0FB739DD87F16F29"
+			rewards: [{
+				count: 8
+				id: "0406584216D672E8"
+				item: "qualitycrops:bread_iron"
+				type: "item"
+			}]
+			subtitle: "Find Gravel!"
+			tasks: [{
+				id: "0462C19DE37DCA5D"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "Cool Rock Hunting"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"156311464B2A937E"
+				"5D5A1A58DE012DCB"
+			]
+			icon: {
+				Count: 1b
+				id: "notreepunching:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04376B9AF8180E7E"
+			rewards: [{
+				id: "5BC439EC18D68943"
+				item: {
+					Count: 1b
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a flint knife!"
+			tasks: [{
+				id: "4A38DE7EDFE0D920"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The First Tool"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5907A79C0F3D20F0"]
+			id: "12430321510FD864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F4AB704A68C1B7"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			subtitle: "Get some logs by chopping a tree!"
+			tasks: [{
+				id: "3257C4236F846001"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Finally, Wood!"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["278B3293744C3803"]
+			icon: "minecraft:stick"
+			id: "156311464B2A937E"
+			rewards: [{
+				command: "/puffish_skills points add @p mining 1"
+				icon: "minecraft:nether_star"
+				id: "50E358ED93953E17"
+				title: "Skill Point"
+				type: "command"
+			}]
+			subtitle: "Punch leaves to get a stick!"
+			tasks: [{
+				id: "1F9193CD77FDA548"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "The Ultimate Toy"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12430321510FD864"]
+			description: ["In your crafting menu, if you put the flint axe above a log, it will give you planks.  If you put it to the left of a log, it will give you sticks.  This is inefficient at the moment, but you will eventually get better methods of doing this!"]
+			id: "1E1672A397FE9736"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A7BCF1A640FE87C"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			subtitle: "Craft some planks and sticks with your axe!"
+			tasks: [
+				{
+					count: 4L
+					id: "72507D04464F9FDF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F17905CE5319991"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Planks and Sticks: The Early Game Way"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E1672A397FE9736"]
+			id: "1D5F87A06B44BD1E"
+			shape: "gear"
+			subtitle: "The key to all crafting"
+			tasks: [{
+				id: "6004E47063EE5E32"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D5F87A06B44BD1E"]
+			id: "740BA01CA6FA0E89"
+			rewards: [{
+				id: "2BB652BBEBAA5DFC"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Rock?"
+			tasks: [{
+				id: "61CDFF06D1FCF985"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["740BA01CA6FA0E89"]
+			id: "67E1085140671014"
+			rewards: [
+				{
+					command: "/gamestage add @p stoneage"
+					icon: "minecraft:stone"
+					id: "75A4371235136188"
+					title: "Stone Age Unlocked!"
+					type: "command"
+				}
+				{
+					id: "08528845A5437352"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "AND STONE!"
+			tasks: [{
+				id: "1F4F98627ABEDF79"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D5F87A06B44BD1E"]
+			id: "4AEA40CA9A342525"
+			rewards: [{
+				count: 2
+				id: "1FC0D6A3B70B54C1"
+				item: "minecraft:green_wool"
+				type: "item"
+			}]
+			subtitle: "Using some of that plant string, you can make wool!"
+			tasks: [{
+				id: "700DD1807021E6C2"
+				item: "minecraft:green_wool"
+				type: "item"
+			}]
+			title: "Plant Wool"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4AEA40CA9A342525"]
+			id: "1D809E9F4145833A"
+			rewards: [{
+				command: "/puffish_skills points add @p mining 1"
+				icon: "minecraft:nether_star"
+				id: "388789F3206A6EC8"
+				title: "Mining Skill Point"
+				type: "command"
+			}]
+			subtitle: "Sleep, but on the go!"
+			tasks: [{
+				id: "74E52A219D00C82F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
+				type: "item"
+			}]
+			title: "Plant-based Sleeping"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D5F87A06B44BD1E"]
+			id: "7A2B8D81CA6EEE46"
+			subtitle: "Make a wooden tetra hammer!"
+			tasks: [{
+				id: "57DF62DAAEFA0AC8"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "3ab8de84-8521-4612-bd03-2d9a8280c045"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A2B8D81CA6EEE46"]
+			id: "03C9775216D932C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "475259E87203CEFD"
+				table_id: 2050262221554824614L
+				type: "random"
+			}]
+			subtitle: "Tetra Time"
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "4C229544554D440E"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67E1085140671014"]
+			id: "1011F05E1EB31A9A"
+			rewards: [{
+				count: 32
+				id: "3211700AB2D47432"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			subtitle: "A nice decorative block"
+			tasks: [{
+				count: 8L
+				id: "591174F81915FF06"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67E1085140671014"]
+			description: ["Andesite is used heavily in the create mod, so it might be a good idea to get your hands on a large supply early."]
+			id: "46F627D55A32992C"
+			rewards: [{
+				count: 32
+				id: "12862D7C2FC45AFD"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7478CF25432FA7F9"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67E1085140671014"]
+			id: "26ED486BD7D10D15"
+			rewards: [{
+				count: 32
+				id: "63585613327D9944"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			subtitle: "A nice decorative block"
+			tasks: [{
+				count: 8L
+				id: "145247A4A846D395"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D5F87A06B44BD1E"]
+			description: [
+				"Now that you can craft using the crafting table, you are able to make a fishing rod!"
+				"This will provide you with a sustainable food source."
+			]
+			id: "3DC58CE874BC3215"
+			rewards: [{
+				count: 4
+				id: "247F194ACDE1D13A"
+				item: "qualitycrops:cooked_cod_iron"
+				type: "item"
+			}]
+			subtitle: "\"I shall call him squishy and he shall be mine and he shall be my squishy.\""
+			tasks: [{
+				id: "681476F589B68029"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquaculture Beginnings"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3DC58CE874BC3215"]
+			id: "08FCC1BF5E0B9525"
+			subtitle: "Without the hoes"
+			tasks: [{
+				id: "17CD4D364F174098"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				title: "Any #minecraft:boats"
+				type: "item"
+			}]
+			title: "Sailing to the Ends of the Earth"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D5F87A06B44BD1E"]
+			id: "4F16702B92928CD7"
+			rewards: [{
+				command: "/puffish_skills points add @p combat"
+				icon: "minecraft:nether_star"
+				id: "630E18E7BBA43584"
+				silent: true
+				title: "Combat Skill Point"
+				type: "command"
+			}]
+			subtitle: "This is your early game weapon!"
+			tasks: [{
+				id: "114C511625201681"
+				item: {
+					Count: 1b
+					id: "notreepunching:macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+	]
+	title: "Getting Started"
+}

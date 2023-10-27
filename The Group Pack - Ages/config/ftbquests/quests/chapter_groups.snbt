@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "6BB673B4EFC621D0", title: "The Stone Age" }
+		{ id: "14A75335883127BD", title: "Copper Age" }
+		{ id: "2D2A7AD0402FA68E", title: "Iron Age" }
+		{ id: "6E437202226CDAF1", title: "Industrial Age" }
+		{ id: "312640FEF6970A47", title: "Machine Age" }
+		{ id: "1D01AB2797040F36", title: "Nuclear Age" }
+		{ id: "097DBD99114F0E3C", title: "Space Age" }
+		{ id: "3819224E031289DB", title: "Computer Age" }
+		{ id: "587401FB9E26FCDE", title: "Future Age" }
+		{ id: "3ED3A46CF7A74EE4", title: "Age of Collecting" }
+	]
+}

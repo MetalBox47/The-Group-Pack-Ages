@@ -1,0 +1,4 @@
+compactmachines:compact_world
+rftoolsdim:testdim1
+minecraft:the_nether
+minecraft:overworld

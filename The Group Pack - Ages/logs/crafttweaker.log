@@ -1,0 +1,561 @@
+[21:36:11.487][INFO]: Successfully injected RecipeFS file system
+[21:36:11.604][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[21:36:11.608][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[21:36:11.610][INFO]: Successfully identified and loaded plugin createtweaker:main
+[21:36:11.613][INFO]: Successfully identified and loaded plugin createtweaker:main
+[21:36:11.616][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[21:36:14.727][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[21:36:14.730][INFO]: - 'crafttweaker' at version '10.1.50'
+[21:36:14.730][INFO]: - 'crafttweakerutilscurios' at version '0.1.1'
+[21:36:14.731][INFO]: - 'crafttweakerutilsftbquest' at version '0.0.6'
+[21:36:14.731][INFO]: - 'createsifter' at version '1.19.2-1.7.5.c-36'
+[21:36:14.731][INFO]: - 'createtweaker' at version '3.0.0.6'
+[21:36:14.731][INFO]: - 'dimstages' at version '4.0.4'
+[21:36:14.731][INFO]: - 'extendedcrafting' at version '5.1.9'
+[21:36:14.731][INFO]: - 'gamestages' at version '11.1.4'
+[21:36:14.731][INFO]: - 'immersiveengineering' at version '1.19.2-9.2.3-167'
+[21:36:14.731][INFO]: - 'itemstages' at version '5.1.3'
+[21:36:14.731][INFO]: - 'lootstages' at version '1.19.2-V0.7'
+[21:36:14.731][INFO]: - 'mekanism' at version '10.3.9'
+[21:36:14.731][INFO]: - 'mobgamestages' at version '1.19.2-V0.2'
+[21:36:14.731][INFO]: - 'orestages' at version '1.19.2-V0.2'
+[21:36:14.731][INFO]: - 'pneumaticcraft' at version '1.19.2-4.3.9-39'
+[21:36:14.731][INFO]: - 'projecte' at version '1.0.1B'
+[21:36:14.731][INFO]: - 'recipestages' at version '4.0.0.7'
+[21:36:14.834][WARN]: Found two native expansions for the same class net.minecraft.world.entity.player.Player in loader crafttweaker, current NativeTypeInfo[name=crafttweaker.api.entity.type.player.Player, targetedType=class net.minecraft.world.entity.player.Player, constructors=[Lcom.blamejared.crafttweaker.api.natives.NativeTypeInfo$Constructor;@675c049b, methods=[Lcom.blamejared.crafttweaker.api.natives.NativeTypeInfo$Method;@1567c159], new NativeTypeInfo[name=crafttweaker.api.entity.type.player.Player, targetedType=class net.minecraft.world.entity.player.Player, constructors=[Lcom.blamejared.crafttweaker.api.natives.NativeTypeInfo$Constructor;@62b0b9ee, methods=[Lcom.blamejared.crafttweaker.api.natives.NativeTypeInfo$Method;@5f9c6669]: this will lead to issues
+[21:36:26.076][INFO]: Started loading scripts for loader 'mekanismcontent'
+[21:36:26.491][INFO]: Compiling and executing scripts
+[21:36:27.317][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:36:27.457][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[21:36:27.459][INFO]: Registering 0 custom gases.
+[21:36:27.467][INFO]: Registering 0 custom infuse types.
+[21:36:27.480][INFO]: Registering 0 custom pigments.
+[21:36:27.485][INFO]: Registering 0 custom robit skins.
+[21:36:27.490][INFO]: Registering 0 custom slurries.
+[21:36:34.530][INFO]: Started loading scripts for loader 'initialize'
+[21:36:34.596][INFO]: Compiling and executing scripts
+[21:36:34.599][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:36:34.615][INFO]: Execution for loader 'initialize' completed successfully
+[21:42:24.425][INFO]: Started loading scripts for loader 'tags'
+[21:42:24.443][INFO]: Compiling and executing scripts
+[21:42:24.448][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:42:24.459][INFO]: Execution for loader 'tags' completed successfully
+[21:42:30.497][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:42:30.513][INFO]: Compiling and executing scripts
+[21:42:30.643][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:42:30.644][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:42:30.644][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:42:30.644][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:42:30.644][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'create.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:42:30.645][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:42:30.648][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:42:30.648][INFO]: Loading file 'orestages.zs' with priority 0
+[21:42:30.650][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:42:30.650][INFO]: Loading file 'projecte.zs' with priority 0
+[21:42:30.650][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:42:30.651][INFO]: Loading file 'vinery.zs' with priority 0
+[21:42:30.705][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:42:30.726][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:42:30.726][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:42:30.726][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:42:30.728][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5b7939e2': tell the mod author to properly implement describe
+[21:42:30.729][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:42:30.736][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:42:30.739][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:42:30.740][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:42:30.740][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:42:30.744][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:42:30.755][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:42:30.755][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:42:30.756][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:42:30.756][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:42:30.771][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:42:30.772][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:42:30.777][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@75c96eea': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4e68b738': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5f9d9d53': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@20b46d94': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1eb4f956': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@15ee5ccf': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@262a3c24': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@25f12db8': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1c361e19': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7bd92174': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@c65f937': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@205589ee': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@cbf8d2b': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3edfcf49': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1d5025e4': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1146c559': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@61e0c48f': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2185ea7d': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3d6684ac': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1a2de254': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7d8e9922': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@73d642ec': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7a9cfbde': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@fd6999b': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@69846ca': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4718b5d7': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5a47e4e1': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6166a473': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@258c0083': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2738afe8': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@42bd3702': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@162c461a': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5361c444': tell the mod author to properly implement describe
+[21:42:30.778][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3144662f': tell the mod author to properly implement describe
+[21:42:30.779][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:42:30.779][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:42:30.779][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:42:30.784][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:42:30.784][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:42:30.789][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:42:30.790][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:42:30.793][INFO]: This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:43:32.528][INFO]: Started loading scripts for loader 'tags'
+[21:43:32.529][INFO]: Undoing previous actions
+[21:43:32.547][INFO]: Compiling and executing scripts
+[21:43:32.551][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:43:32.563][INFO]: Execution for loader 'tags' completed successfully
+[21:43:36.848][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:43:36.848][INFO]: Undoing previous actions
+[21:43:36.879][INFO]: Compiling and executing scripts
+[21:43:37.042][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:43:37.043][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:43:37.043][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:43:37.043][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:43:37.043][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:43:37.043][INFO]: Loading file 'create.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:43:37.044][INFO]: Loading file 'orestages.zs' with priority 0
+[21:43:37.045][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:43:37.045][INFO]: Loading file 'projecte.zs' with priority 0
+[21:43:37.045][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:43:37.045][INFO]: Loading file 'vinery.zs' with priority 0
+[21:43:37.098][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:43:37.108][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:43:37.109][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:43:37.109][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:43:37.110][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@257db10f': tell the mod author to properly implement describe
+[21:43:37.111][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:43:37.119][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:43:37.120][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:43:37.120][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:43:37.121][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:43:37.122][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:43:37.129][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:43:37.130][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:43:37.130][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:43:37.131][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:43:37.140][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:43:37.141][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:43:37.148][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:43:37.148][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3f751b11': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7f2256a9': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5ca1f448': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@68d2e8dc': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7fe8cb44': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@12124d0e': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4142f8b0': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3ea96c4c': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7223236': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7d875e1': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@51099ad2': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@24b747b3': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@32126291': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@76217e4f': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6b63b553': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@75f7ed53': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@54d00f96': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@29fed045': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5f412104': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1516d2ca': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@416ec341': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1e4d5fd1': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@48d2041d': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6bf10f4f': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5c32adbb': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2875c23b': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@705fc9c4': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@13b73bf7': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5a21134f': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5c43762a': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@52dc958f': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@781e74a0': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2a77bb87': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6d426ac5': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5b84ea0f': tell the mod author to properly implement describe
+[21:43:37.149][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:43:37.150][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:43:37.150][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:43:37.157][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:43:37.159][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:43:37.164][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:43:37.166][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:43:37.167][INFO]: This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:44:20.634][INFO]: Started loading scripts for loader 'tags'
+[21:44:20.635][INFO]: Undoing previous actions
+[21:44:20.648][INFO]: Compiling and executing scripts
+[21:44:20.650][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:44:20.657][INFO]: Execution for loader 'tags' completed successfully
+[21:44:24.112][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:44:24.112][INFO]: Undoing previous actions
+[21:44:24.134][INFO]: Compiling and executing scripts
+[21:44:24.284][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:44:24.284][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'create.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:44:24.285][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:44:24.287][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:44:24.287][INFO]: Loading file 'orestages.zs' with priority 0
+[21:44:24.288][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:44:24.288][INFO]: Loading file 'projecte.zs' with priority 0
+[21:44:24.288][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:44:24.289][INFO]: Loading file 'vinery.zs' with priority 0
+[21:44:24.329][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:44:24.336][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:44:24.336][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:44:24.337][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:44:24.337][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2b2547e6': tell the mod author to properly implement describe
+[21:44:24.337][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:44:24.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:44:24.344][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:44:24.345][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:44:24.345][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:44:24.345][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:44:24.353][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:44:24.354][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:44:24.354][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:44:24.354][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:44:24.363][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:44:24.364][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:44:24.370][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@435acb08': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2edf0053': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@17bac950': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@46447b03': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@53d3ea48': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5d8a5f9': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@44690c5b': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2110ebb6': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6d5dc476': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2dea4349': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@216d897b': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7869bbb': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4fb8149': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7bf46a94': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@369f12c0': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5770ceb': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5dde24c5': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5a65520': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4b614e46': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@764c1395': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5a98f995': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6da0b8b3': tell the mod author to properly implement describe
+[21:44:24.371][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2c72c83f': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3a34a69f': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@277db41d': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4ff0e561': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7579ef90': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6a66affe': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@20f133f3': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@68e21161': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@52dd7682': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@d1b3a78': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@245cee83': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5c4d8a70': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@659d9e1d': tell the mod author to properly implement describe
+[21:44:24.372][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3101a02c': tell the mod author to properly implement describe
+[21:44:24.373][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:44:24.373][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:44:24.373][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:44:24.380][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:44:24.380][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:44:24.386][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:44:24.387][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:44:24.389][INFO]: This reload was made possible by Luvely and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:45:39.784][INFO]: Started loading scripts for loader 'tags'
+[21:45:39.785][INFO]: Undoing previous actions
+[21:45:39.803][INFO]: Compiling and executing scripts
+[21:45:39.805][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:45:39.814][INFO]: Execution for loader 'tags' completed successfully
+[21:45:43.067][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:45:43.068][INFO]: Undoing previous actions
+[21:45:43.083][INFO]: Compiling and executing scripts
+[21:45:43.234][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:45:43.234][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:45:43.234][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:45:43.234][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:45:43.234][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:45:43.234][INFO]: Loading file 'create.zs' with priority 0
+[21:45:43.234][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:45:43.235][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:45:43.235][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:45:43.235][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:45:43.235][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:45:43.235][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:45:43.236][INFO]: Loading file 'orestages.zs' with priority 0
+[21:45:43.237][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:45:43.237][INFO]: Loading file 'projecte.zs' with priority 0
+[21:45:43.237][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:45:43.237][INFO]: Loading file 'vinery.zs' with priority 0
+[21:45:43.276][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:45:43.282][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:45:43.283][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:45:43.283][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:45:43.284][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5d814f66': tell the mod author to properly implement describe
+[21:45:43.284][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:45:43.290][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:45:43.290][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:45:43.291][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:45:43.291][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:45:43.291][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:45:43.297][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:45:43.297][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:45:43.297][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:45:43.297][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:45:43.303][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:45:43.304][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:45:43.311][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7da673bd': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6c132be5': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@61a53434': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@17fafe59': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@598f4c80': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2c361857': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@64fa8d71': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@24b2af81': tell the mod author to properly implement describe
+[21:45:43.311][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7fa1cdb': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1b9248d3': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2b33cfd5': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1accb395': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4d0778d3': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@44da7570': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@71a25759': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@e0d12e3': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@78ba2211': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6f5cb983': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@c2733ae': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6a5ba2c3': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@43d8bf33': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@49c2966a': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7c4d66bf': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4b379e4f': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4d10913d': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@103c2f33': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@753cb15': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7061e856': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3931161e': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4885e3bc': tell the mod author to properly implement describe
+[21:45:43.312][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@511792da': tell the mod author to properly implement describe
+[21:45:43.313][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2ecbe3f6': tell the mod author to properly implement describe
+[21:45:43.313][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1ffb91d7': tell the mod author to properly implement describe
+[21:45:43.313][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@78840997': tell the mod author to properly implement describe
+[21:45:43.313][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@15e8d51f': tell the mod author to properly implement describe
+[21:45:43.313][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@64cd5007': tell the mod author to properly implement describe
+[21:45:43.314][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:45:43.315][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:45:43.315][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:45:43.321][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:45:43.321][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:45:43.327][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:45:43.328][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:45:43.329][INFO]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:47:04.731][INFO]: Started loading scripts for loader 'tags'
+[21:47:04.731][INFO]: Undoing previous actions
+[21:47:04.747][INFO]: Compiling and executing scripts
+[21:47:04.750][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:47:04.762][INFO]: Execution for loader 'tags' completed successfully
+[21:47:08.934][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:47:08.934][INFO]: Undoing previous actions
+[21:47:08.948][INFO]: Compiling and executing scripts
+[21:47:09.086][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:47:09.086][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'create.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:47:09.087][INFO]: Loading file 'orestages.zs' with priority 0
+[21:47:09.088][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:47:09.089][INFO]: Loading file 'projecte.zs' with priority 0
+[21:47:09.089][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:47:09.089][INFO]: Loading file 'vinery.zs' with priority 0
+[21:47:09.117][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:47:09.124][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:47:09.125][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:47:09.125][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:47:09.125][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@58fc79bf': tell the mod author to properly implement describe
+[21:47:09.125][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:47:09.130][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:47:09.131][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:47:09.131][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:47:09.132][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:47:09.132][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:47:09.138][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:47:09.139][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:47:09.139][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:47:09.139][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:47:09.145][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:47:09.145][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:47:09.151][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@113d1592': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4b571931': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4e957cec': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7abc9e83': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3d485c3': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@70b99a19': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@152efafe': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@bf8265e': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2c25407f': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@10f07eb0': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@72eb9f5a': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@38eb8d8f': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3ecb0455': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2ddde8c2': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3e2a36c': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6781c16a': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@18e8863': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@4357fb68': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5538d9ad': tell the mod author to properly implement describe
+[21:47:09.152][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3cdbc8f1': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@49e39299': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3513bc76': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2675eec8': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@440b36b7': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@11a903f5': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@3971fdba': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@30fb57f2': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2dd871d4': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@74376931': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@421dd620': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@28334d56': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@468bdf55': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@93a4854': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@25ba2385': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@17d19399': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@fb88741': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@549b060a': tell the mod author to properly implement describe
+[21:47:09.153][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2049b117': tell the mod author to properly implement describe
+[21:47:09.154][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:47:09.154][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:47:09.154][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:47:09.159][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:47:09.160][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:47:09.165][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:47:09.165][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:47:09.170][INFO]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:51:11.261][INFO]: Started loading scripts for loader 'tags'
+[21:51:11.261][INFO]: Undoing previous actions
+[21:51:11.277][INFO]: Compiling and executing scripts
+[21:51:11.280][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[21:51:11.297][INFO]: Execution for loader 'tags' completed successfully
+[21:51:15.389][INFO]: Started loading scripts for loader 'crafttweaker'
+[21:51:15.389][INFO]: Undoing previous actions
+[21:51:15.406][INFO]: Compiling and executing scripts
+[21:51:15.522][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[21:51:15.522][INFO]: Loading file 'blast_furnace_changes.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'bucket_changes.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'campfire_changes.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'copper_ingot_changes.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'create.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'dimension_stages.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'farmers_delight_canvas_changes.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'fir_planks_to_chest.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'immersive_engineering.zs' with priority 0
+[21:51:15.523][INFO]: Loading file 'iron_ingot_changes.zs' with priority 0
+[21:51:15.524][INFO]: Loading file 'mechanical_press_changes.zs' with priority 0
+[21:51:15.524][INFO]: Loading file 'orestages.zs' with priority 0
+[21:51:15.525][INFO]: Loading file 'plant_string_wool.zs' with priority 0
+[21:51:15.525][INFO]: Loading file 'projecte.zs' with priority 0
+[21:51:15.525][INFO]: Loading file 'propeller_changes.zs' with priority 0
+[21:51:15.525][INFO]: Loading file 'vinery.zs' with priority 0
+[21:51:15.553][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:blast_furnace>'
+[21:51:15.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_blast_furnace' that outputs: '<item:minecraft:blast_furnace>'
+[21:51:15.562][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_bucketr' that outputs: '<item:minecraft:bucket>'
+[21:51:15.563][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:copper_ingot>'
+[21:51:15.563][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@67379b41': tell the mod author to properly implement describe
+[21:51:15.563][INFO]: Removing 'crafting' recipes with output: '<item:create:steam_engine>'
+[21:51:15.568][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_steam_engine' that outputs: '<item:create:steam_engine>'
+[21:51:15.569][INFO]: [Dimension Stages] Staging dimension 'minecraft:the_nether' to stage(s) '[ironage]'. dimension_stages.zs:2:0
+[21:51:15.569][INFO]: [Dimension Stages] Staging dimension 'twilightforest:twilight_forest' to stage(s) '[ironage]'. dimension_stages.zs:3:0
+[21:51:15.570][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:fir_planks_to_chest' that outputs: '<item:minecraft:chest>'
+[21:51:15.570][INFO]: Removing 'crafting' recipes with output: '<item:immersiveengineering:hammer>'
+[21:51:15.575][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_engineering_hammer' that outputs: '<item:immersiveengineering:hammer>'
+[21:51:15.576][INFO]: Removing 'smelting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:51:15.576][INFO]: Removing 'blasting' recipes with output: '<item:minecraft:iron_ingot>'
+[21:51:15.576][INFO]: Removing 'crafting' recipes with output: '<item:projecte:transmutation_table>'
+[21:51:15.582][INFO]: Adding 'create:sequenced_assembly' recipe, with name: 'crafttweaker:sequenced_assembly/seq_blast_brick' that outputs: '<item:minecraft:iron_ingot>'
+[21:51:15.582][INFO]: Removing 'crafting' recipes with output: '<item:create:mechanical_press>'
+[21:51:15.587][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_mechanical_press' that outputs: '<item:create:mechanical_press>'
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7b966134': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5dd7b3e9': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5a07983e': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@5978f1a8': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@112fb472': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@71070545': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@17a7a533': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@94ce3de': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@65ac4aa1': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2cc8467c': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@66cf0eb': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6850b1eb': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6fae0702': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@13b572d': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@60b11449': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@d832e5d': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@120abef8': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@495311ab': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@21a85794': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@35cd743a': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@72f7f105': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@23f878b9': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@400f9fa5': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@1e3d4f3a': tell the mod author to properly implement describe
+[21:51:15.588][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@530ffa21': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@33d26d49': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@f9c2e21': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7bace477': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@57ded7d1': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@77c64046': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@194595b9': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@55655ba': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@24976a9e': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6196ca3a': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@54cb73ec': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@6387174a': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7c5b423e': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2b4b9095': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@2490c203': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Applying unknown action 'net.sixik.orestages.CrT.action.AddStageBlockInfo@7ff6bc9c': tell the mod author to properly implement describe
+[21:51:15.589][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_wool' that outputs: '<item:minecraft:green_wool>'
+[21:51:15.590][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:plant_string_fishing_rod' that outputs: '<item:minecraft:fishing_rod>'
+[21:51:15.590][INFO]: Removing 'crafting' recipes with output: '<item:create:propeller>'
+[21:51:15.595][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_propeller' that outputs: '<item:create:propeller>'
+[21:51:15.597][INFO]: Removing 'crafting' recipes with output: '<item:vinery:wine_press>'
+[21:51:15.604][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:new_apple_press' that outputs: '<item:vinery:wine_press>'
+[21:51:15.604][INFO]: Execution for loader 'crafttweaker' completed successfully
+[21:51:15.606][INFO]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

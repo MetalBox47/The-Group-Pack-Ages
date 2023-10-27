@@ -1,0 +1,561 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "leather_working"
+	group: "6BB673B4EFC621D0"
+	id: "513B7C087D53BA96"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"04376B9AF8180E7E"
+				"255C8B0C8A322027"
+			]
+			id: "3A1CB8EB47A15A2C"
+			rewards: [{
+				count: 8
+				id: "501D526E511A4D7D"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "663EE082760DB60B"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A1CB8EB47A15A2C"
+				"1D5F87A06B44BD1E"
+			]
+			id: "7B8F0366421C384C"
+			rewards: [
+				{
+					id: "515282383E408684"
+					item: {
+						Count: 1b
+						id: "alexsmobs:pocket_sand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C5E8A3D0C1D691A"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5258FBA00A4AC38C"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2733BEEED44D8F63"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CFDAD22053CC1BB"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57E763AC0E642C13"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3A1CB8EB47A15A2C"
+				"1D5F87A06B44BD1E"
+			]
+			id: "2F8D661817F5B11C"
+			rewards: [{
+				id: "6164B88BD985B1E4"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684D1F27B1EB5C81"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:back"
+					}
+				}
+				title: "Any #curios:back"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "38655D61B67BE98B"
+			rewards: [{
+				count: 2
+				id: "726A99F2C108A334"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:sheep_spawn_egg"
+				id: "71BA39DB3A6B7361"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			title: "BAAAAAAAAAAA"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO Moo MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO Moo MoO MoO"
+				" MoO MoO MoO MoO MoO Moo Moo MoO MoO MoO Moo OOO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO Moo MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO"
+				" MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO Moo MOo"
+				" MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo MOo"
+				" MOo MOo MOo MOo MOo Moo MOo MOo MOo MOo MOo MOo MOo MOo Moo MoO MoO MoO Moo MOo MOo MOo MOo MOo MOo Moo MOo MOo MOo MOo MOo MOo MOo MOo Moo"
+				" OOO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO Moo "
+			]
+			id: "255C8B0C8A322027"
+			rewards: [{
+				count: 2
+				id: "3BBA3DBFA39A0FDB"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "The below text is code in COW for \"Hello World!\""
+			tasks: [{
+				icon: "minecraft:cow_spawn_egg"
+				id: "7C2880F085F3DEE3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			title: "MOOOOOOOOOOOOOOOOOOOO"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:chicken_spawn_egg"
+			id: "62DCD55F5E85168D"
+			rewards: [{
+				count: 2
+				id: "4BE41407663A07EA"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:chicken_spawn_egg"
+				id: "1703F65CEE0A2630"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			title: "CLUCK"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "6500C45E7599603A"
+			rewards: [{
+				count: 2
+				id: "4846A0C1F955A2A5"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:pig_spawn_egg"
+				id: "30B345D2FB50A535"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			title: "OINK"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38655D61B67BE98B"]
+			id: "4C0C64191AC6C14F"
+			rewards: [{
+				id: "082CB3B318397FA3"
+				item: {
+					Count: 1b
+					id: "doggytalents:wool_collar"
+					tag: {
+						display: {
+							color: 16777215
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "75B3ED1FC4EC973B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62DCD55F5E85168D"]
+			id: "6FC559495C4ECE27"
+			rewards: [{
+				command: "/puffish_skills points add @p combat"
+				icon: "minecraft:nether_star"
+				id: "5C400731EDF2E893"
+				title: "Combat Skill Point"
+				type: "command"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3168C8C7F2084D67"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["255C8B0C8A322027"]
+			id: "71A47DD93F58E34B"
+			rewards: [{
+				count: 4
+				id: "693889F2D9BFB773"
+				item: "qualitycrops:beef_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15EF1FD507AA0E0A"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6500C45E7599603A"]
+			id: "0ACA2F919640C5B2"
+			rewards: [{
+				count: 8
+				id: "41043B4B673D7763"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A45991DE72376ED"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4C0C64191AC6C14F"
+				"1D5F87A06B44BD1E"
+			]
+			id: "0B0B79A159608293"
+			rewards: [{
+				id: "7495EE2E38695249"
+				item: "minecraft:red_bed"
+				title: "Suspicious Looking Bed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4612F02293C26F64"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38655D61B67BE98B"]
+			id: "4429F4AAE8532864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257873A1D33B6430"
+				table_id: 2119340315891445351L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "430C783389186A04"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "0AD263553F633D99"
+			rewards: [{
+				count: 2
+				id: "6C7E292B867E840C"
+				item: "minecraft:wolf_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Find a wolf!"
+			tasks: [{
+				icon: "minecraft:wolf_spawn_egg"
+				id: "6A154DFD5F0478A6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wolf"
+				type: "observation"
+			}]
+			title: "BORK"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0AD263553F633D99"]
+			id: "7EE2076D399CAEAF"
+			rewards: [{
+				id: "185BF5ECC34A7E2A"
+				item: "doggytalents:sunglasses"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57D798FEED75CDD4"
+				item: "doggytalents:training_treat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "55FB7FBB8F91286C"
+			rewards: [{
+				count: 2
+				id: "316781C354019D20"
+				item: "minecraft:cat_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Find a cat!"
+			tasks: [{
+				icon: "minecraft:cat_spawn_egg"
+				id: "6587A5EDAE68AFC1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cat"
+				type: "observation"
+			}]
+			title: "MROOAW"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "380B0A9C97AA3A1B"
+			rewards: [{
+				count: 2
+				id: "701ECF1AA2A355EC"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:villager_spawn_egg"
+				id: "65FC542D0002DC93"
+				observe_type: 5
+				timer: 0L
+				title: "Villager"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "HRMMM"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "7A0DEDCEBF4E4A49"
+			rewards: [{
+				count: 2
+				id: "6A42DC4B83DD6975"
+				item: "minecraft:horse_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:horse_spawn_egg"
+				id: "1DAE653C24EE82EC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:horse"
+				type: "observation"
+			}]
+			title: "[Horse Noise]"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A1CB8EB47A15A2C"
+				"7A0DEDCEBF4E4A49"
+			]
+			id: "7DD6BEFB85F10096"
+			tasks: [{
+				id: "1EFCE4E3B982EA03"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7B8F0366421C384C"
+				"7DD6BEFB85F10096"
+			]
+			id: "20499B29406BD02A"
+			rewards: [{
+				id: "44728A85BDE5B5F0"
+				item: "exlinecopperequipment:copper_horse_armor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F5E07E0CE5CB6EC"
+				item: "minecraft:leather_horse_armor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62DCD55F5E85168D"]
+			id: "153DBB5975DD2749"
+			rewards: [{
+				id: "1031FF69E4FD1384"
+				item: "pamhc2foodcore:chickennuggetitem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74509D2F24BAB878"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["380B0A9C97AA3A1B"]
+			id: "1303A70D20F1BB21"
+			rewards: [{
+				count: 8
+				id: "75715ADF2C427814"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E05BCCD70FAAAE5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62DCD55F5E85168D"]
+			id: "4C23325F78E9F6AE"
+			rewards: [{
+				count: 8
+				id: "71FDA53659DD99C4"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73628521954B0833"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4C23325F78E9F6AE"
+				"6560E031691D9970"
+				"1F9193CD77FDA548"
+			]
+			id: "5AC1EBA74C382838"
+			rewards: [{
+				count: 64
+				id: "527CBC388C3AB46C"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4D8BAAD1ED2C0696"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "Domestication"
+}

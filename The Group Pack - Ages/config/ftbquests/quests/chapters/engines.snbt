@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "engines"
+	group: "312640FEF6970A47"
+	id: "1346D323CAD06AF7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BA3584354702858"]
+			id: "6D346652877941CC"
+			tasks: [
+				{
+					count: 48L
+					id: "2933F9124E8FC4A7"
+					item: "createindustry:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "29DFD44E17C1AACE"
+					item: "createindustry:steel_pump"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "600844F3ED59BD88"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5C549C812326855B"
+					item: "createindustry:distillation_tower_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "501309A555C0499A"
+					item: "createindustry:steel_pipe"
+					type: "item"
+				}
+				{
+					id: "2A085075AA529C7D"
+					item: "createindustry:distillation_tower_controller"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D346652877941CC"]
+			id: "1C6E1EFCEAC62EB6"
+			tasks: [{
+				id: "5C41CBBEA3258E1A"
+				item: "createindustry:gasoline_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00C7CA924FC2D821"]
+			id: "4AF330AB915C20AA"
+			tasks: [{
+				id: "4CB65427833AB7EE"
+				item: "createindustry:diesel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D346652877941CC"]
+			id: "2D4165541EEF2127"
+			tasks: [{
+				id: "0EF185616F3BC6FD"
+				item: "createindustry:kerosene_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D346652877941CC"]
+			id: "496AAA9601256054"
+			tasks: [{
+				id: "19D4979FEC4420EA"
+				item: "createindustry:naphtha_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D346652877941CC"]
+			id: "00C7CA924FC2D821"
+			tasks: [{
+				id: "7B02D2FA06B1F61A"
+				item: "createindustry:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00C7CA924FC2D821"]
+			id: "55CA5C61F671D731"
+			tasks: [{
+				id: "6FC56358C8E4BA47"
+				item: "createindustry:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D346652877941CC"]
+			id: "57589250487868D9"
+			tasks: [{
+				id: "4BF77024979D007A"
+				item: "createindustry:napalm_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C6E1EFCEAC62EB6"]
+			id: "2501D95E16106905"
+			tasks: [{
+				id: "16D9F8A5F06C57BC"
+				item: "createindustry:engine_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2501D95E16106905"
+				"55CA5C61F671D731"
+			]
+			id: "030A7E6E48B206BB"
+			rewards: [{
+				id: "1E33D8CD3E3E9A55"
+				item: "pneumaticcraft:gasoline_bucket"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0EBB1F62661B8D1F"
+					item: "createindustry:gasoline_engine"
+					type: "item"
+				}
+				{
+					id: "53056BD3550AE95B"
+					item: "createindustry:gasoline_engine_back"
+					type: "item"
+				}
+				{
+					id: "153D88B229E88015"
+					item: "createindustry:exhaust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AF330AB915C20AA"]
+			id: "4FC28C0785634685"
+			rewards: [{
+				id: "6A134BEE6B7CF406"
+				item: "createindustry:diesel_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A1699B3C9279149"
+				item: "createindustry:diesel_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	title: "Create Industry: Engines"
+}

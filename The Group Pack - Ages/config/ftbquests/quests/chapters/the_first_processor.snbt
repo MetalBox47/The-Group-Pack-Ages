@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_first_processor"
+	group: "3819224E031289DB"
+	id: "6602A92AADB72244"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "056353A603E7AEB3"
+			rewards: [
+				{
+					id: "4C19E9E3B1EC4834"
+					item: "chemlib:silicon_dioxide"
+					type: "item"
+				}
+				{
+					id: "0BC02AA52A70DDB8"
+					item: "chemlib:carbon_monoxide"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "2F9B102B9DDB3A03"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A9154F2794DC59A"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["056353A603E7AEB3"]
+			id: "2EB5B1234CB3960C"
+			rewards: [{
+				id: "65B161B773F4B73B"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51A91284751AE157"
+					item: "chemlib:silicon_dioxide"
+					type: "item"
+				}
+				{
+					id: "5FB9377F9B862D75"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+				{
+					id: "24C6C9E3DB17B6C0"
+					item: "mekanism:advanced_compressing_factory"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "46CD81FF7D24E118"
+			rewards: [{
+				id: "0EC66B10DBD73E99"
+				item: "refinedstorage:silicon"
+				title: "Polished Silicon Dioxide Wafer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "576BECBD519D544D"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					id: "3317C69C764A93EB"
+					item: "chemlib:iron_oxide"
+					type: "item"
+				}
+				{
+					id: "01E2E24A1A0547C1"
+					item: "chemlib:aluminum_oxide_dust"
+					type: "item"
+				}
+				{
+					id: "38A5612F2E568AEB"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "2AFDBD27294505EF"
+			rewards: [{
+				id: "4CEAA2E536EA972D"
+				item: "refinedstorage:silicon"
+				title: "Primed Silicon Dioxide Wafer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F71F8128DA3DC48"
+					item: "thermal:machine_insolator"
+					type: "item"
+				}
+				{
+					id: "45266CA6495F39C9"
+					item: "refinedstorage:silicon"
+					title: "Polished Silicon Dioxide Wafer"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "65A496149B6EE9EF"
+			rewards: [{
+				id: "42748606A0EE865E"
+				item: "refinedstorage:silicon"
+				title: "Etched Silicon Dioxide Wafer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26B39D0B3D21D9C5"
+					item: "mekanism:sulfuric_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "3B95E53F5320C8D5"
+					item: "refinedstorage:silicon"
+					title: "Primed Silicon Dioxide Wafer"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "011603944B21C83F"
+			rewards: [{
+				id: "289C26F1A18B9937"
+				item: "refinedstorage:silicon"
+				title: "Processor Base"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06B040834A95CC3F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "3A1D7696B84E9452"
+					item: "refinedstorage:silicon"
+					title: "Etched Silicon Dioxide Wafer"
+					type: "item"
+				}
+				{
+					id: "291EB7B2DB09D545"
+					item: "mekanism:advanced_compressing_factory"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "The First Processor"
+}
